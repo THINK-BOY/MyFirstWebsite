@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- PIXABAY -->
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width= , initial-scale=1.0" />
+    <title>🏋️‍♀️INDUS_GYM</title>
+    <link rel="stylesheet" href="CSS/style.css" />
+</head>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Blaka+Hollow&family=Cinzel&display=swap" rel="stylesheet" />
+<style>
+    /* css reset */
+    .navbar li {
+        display: inline-block;
+    }
+
+    body {
+        /* font-family: 'Blaka Hollow', cursive;
+font-family: 'Cinzel', serif; */
+        margin: 0px;
+        padding: 0px;
+        background: url("../IMAGE/ABS.jpg");
+    }
+
+    .left {
+        position: absolute;
+        left: 20px;
+        top: 20px;
+        display: inline-block;
+        /* border: 5px solid rgb(255, 255, 255);
+        border-radius: 30px; */
+        padding: 10px;
+        width: 15%;
+        color: white;
+    }
+
+    .mid {
+        /* display: inline-block; */
+        display: block;
+        width: 41%;
+        margin: 14px auto;
+
+        /* border: 3px solid rgb(255, 255, 255);
+        border-radius: 50px; */
+        
+        padding: 5px;
+        color: white;
+    }
+
+    .right {
+        position: absolute;
+        right: 20px;
+        top: 30px;
+        display: inline-block;
+        /* border: 5px solid rgb(255, 255, 255);
+        border-radius: 30px; */
+        padding:3px 10px;
+        width: 10%;
+        color: white;
+    }
+
+    li {
+        color: rgb(5, 5, 5);
+        padding: 10px 5px;
+    }
+
+    li:hover {
+        color: white;
+        background-color: greenyellow;
+    }
+
+    .navbar li a {
+        color: white;
+        background-color: black;
+        text-decoration: none;
+        padding: 12px 25px;
+        border-radius: 20px;
+        border: 0.5px solid white;
+    }
+
+    .mid :hover {
+        color: greenyellow;
+        border: greenyellow;
+        border-radius: 20px;
+    }
+
+    .left img {
+        width: 80px;
+        height: 60px;
+
+        /* background-color: white;
+        border-radius: 50px;
+        /* padding: 5px; */
+        filter: invert();
+    }
+    
+    .left div {
+        text-align: center;
+    }
+
+    #name {
+        color: rgb(255, 255, 255);
+        /* padding: 5px; */
+        /* background-color: black; */
+        /* border-radius: 20px;
+        text-align: center;
+        width: 100px; */
+        /* logo setting  */
+        position: absolute;
+        top: 48px;
+        left: 63px;
+    }
+
+    .btn {
+        margin: 0x 10px;
+        background-color: black;
+        color: white;
+        padding: 6px 7px;
+        border-radius: 10px;
+        border: 0.5px solid white;
+        cursor: pointer;
+    }
+
+    .btn:hover {
+        border: 0.5px solid greenyellow;
+        color: greenyellow;
+    }
+    
+    .container {
+        border: 2px solid white;
+        border-radius: 20px;
+        margin: 10px 1100px;
+        padding: 5px 50px;
+        width: 15%;
+    }
+
+    h2 {
+        color: white;
+    }
+
+    p {
+        color: white;
+    }
+
+    .form input {
+        text-align: center;
+        display: block;
+        width: 90%;
+        padding: 3px 0px;
+        border: 3px solid white;
+        border-radius: 10px;
+        margin:6px auto;
+        font-size: 14px;
+    }
+
+    .form input:hover {
+        border: 2px solid greenyellow;
+    }
+
+    .container h2 {
+        text-align: center;
+    }
+
+    .container button {
+        display: block;
+        width: 90%;
+        margin: 20px auto;
+        text-align: center;
+    }
+</style>
+
+<body>
+    <header>
+        <!-- left  box for logo -->
+        <div class="left">
+            <img src="../image/logo.png" alt="" />
+            <div id="name">INDUS FITNESS</div>
+        </div>
+        <!-- mid bod for navigation -->
+        <div class="mid">
+            <ul class="navbar" id="gg">
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">ABOUT US</a></li>
+                <li><a href="#">FIT CALC</a></li>
+                <li><a href="#">CONTACT US</a></li>
+            </ul>
+        </div>
+        <!-- right box for buuton -->
+        <div class="right">
+            <button class="btn">CALL US</button>
+            <button class="btn">EMAIL US</button>
+        </div>
+        
+        
+        
+        <div class="container">
+            <h2>JOIN THE REVOLUTION</h2>
+            <!-- <p >Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum, impedit!</p> -->
+            <form action="noaction.php">
+                <div class="form">
+                    <input type="text" name="input" id="" placeholder="enter your NAME" />
+                </div>
+                <div class="form">
+                    <input type="text" name="input" id="" placeholder="enter your AGE" />
+                </div>
+                <div class="form">
+                    <input type="text" name="input" id="" placeholder="enter your GENDER" />
+                </div>
+                <div class="form">
+                    <input type="text" name="input" id="" placeholder="enter your LOCALITY" />
+                </div>
+                <div class="form">
+                    <input type="text" name="input" id="" placeholder="enter your EMAIL" />
+                </div>
+                <div class="form">
+                    <input type="text" name="input" id="" placeholder="enter your PH NO." />
+                </div>
+                <button class="btn">SUBMIT</button>
+            </form>
+        </div>
+    </header>
+</body>
+
+</html>
